@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    {{map|safe}}
+    <table style="background-color: none; max-width:30rem;font-size:.7rem;position:absolute;right:1rem;bottom: .9rem;" class="table hovered">
+        <thead class="table-light">
+            <tr>
+                
+                <th scope="col">FDI</th>
+                <th scope="col">FDR</th>
+                <th scope="col">Definition and caution</th>
+              </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0 - 11</td>
+                <td>Low - moderate</td>
+                <td>- High humidity, rainfall, little wind and bush is damp.
+                    - Fires can be easily controlled.
+                    - Head attack easy with water
+                </td>
+            </tr>
+            <tr>
+                <td>12 - 24</td>
+                <td>High</td>
+                <td>- High humidity, rainfall, little wind and bush is damp.
+                    - Fires can be easily controlled.
+                    - Head attack easy with water
+                </td>
+            </tr><tr>
+                <td>25 - 49</td>
+                <td>Very High</td>
+                <td>- Hot, windy conditions and the bush is dry. The use of open fires is prohibited.
+                    - Fires can be difficult to control.
+                    - Head attack will generally succeed for FDI up to approximately 40. For FDI greater than 40, head attack may fail except in favourable circumstances and close back burning to the head may be necessary.
+                </td>
+            </tr><tr>
+                <td>50 - 74</td>
+                <td>Severe</td>
+                <td>- Very hot, windy and the bush is very dry.
+                    - Fires will be difficult to control and fast moving.
+                    - Direct attack will generally fail. Back burn from a good secure line with adequate manpower and equipment. Flanks must be held at all costs.
+                </td>
+            </tr>
+            <tr>
+                <td>75 - 99</td>
+                <td>Extreme</td>
+                <td>- Very hot, windy and the bush is very dry.
+                    - Fires will be very difficult to control and fast moving.
+                </td>
+            </tr>
+            <tr>
+                <td>100+</td>
+                <td>Catastrophic</td>
+                <td>- Fires will be unpredictable and very fast moving with highly aggressive flames.
+                    - Fire will likely be uncontrollable
+                </td>
+            </tr>
+        </tbody>
+      </table>
+</body>
+</html>
